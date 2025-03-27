@@ -1,0 +1,20 @@
+ciclo for para el patron listener
+@DiegoEspx ➜ /workspaces/compiladores/Patrones (main) $ python3 test_listener.py
+Ingrese el ciclo 'for' completo (ej. for(i = 0; i < 3; i = i + 1) { x = x + 2; };): for (i = 0; i < 3; i = i + 1) {x = x + 2;};
+Condición detectada: i < 3
+ Asignación detectada: x=x+2
+ Se detectó un ciclo FOR
+  - Inicialización: i=0
+  - Condición: i<3
+  - Actualización: i=i+1
+@DiegoEspx ➜ /workspaces/compiladores/Patrones (main) $ 
+
+ciclo for para el patron visitor
+@DiegoEspx ➜ /workspaces/compiladores/Patrones (main) $ python3 test_visitor.py
+? for (i = 0; i < 3; i = i + 1) {x = x + 2;};
+Ejecutando el ciclo for con i = 0
+Ejecutando el ciclo for con i = 1
+Ejecutando el ciclo for con i = 2
+Finalizó la ejecución del bucle FOR
+Variables al final: {'i': 3, 'x': 6}
+@DiegoEspx ➜ /workspaces/compiladores/Patrones (main) $ 
